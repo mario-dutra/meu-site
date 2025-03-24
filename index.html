@@ -28,7 +28,7 @@
   </style>
 
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
-
+    <link rel="stylesheet" type="text/css" href="./css/styles-carrosel.css" />
 </head>
 
 <body>
@@ -96,52 +96,26 @@
 
   <section id="portifolio">
     <div class="titulo-trabalhos">Alguns trabalhos realizados</div>
-    <div class="container-fluid">
-      <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./img/logo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Emanoel Araujo</h5>
-              <p class="card-text"><a href="https://incredible-paprenjak-3e7e7d.netlify.app/" target='_blank'><img
-                    src="./img/online.png" width="30px" alt=""></a></p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./img/logo4.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">site pessoal</h5>
-              <p class="card-text"><img src="./img/online.png" width="30px" alt=""></p>
-            </div>
-          </div>
-        </div>
-
-           <div class="col mb-4">
-          <div class="card">
-            <img src="./img/logo5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Gerador de Currículos</h5>
-              <p class="card-text"><a href="https://mario-dutra.github.io/gerador-de-curriculo/" target="_blank"><img src="./img/online.png" width="30px" alt=""></a></p>
-            </div>
-          </div>
-        </div>
-
-         <div class="col mb-4">
-          <div class="card">
-            <img src="./img/logo_lava.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">LavaSeco</h5>
-              <p class="card-text"><a href="https://lavaseco.online/" target="_blank"><img src="./img/online.png" width="30px" alt=""></a></p>
-            </div>
-          </div>
-        </div>
-        
+       <div class="titulo-trabalhos">Alguns trabalhos realizados</div>
+    <div class="carousel">
+      <div class="carousel__scene">
+          <ol class="carousel__list">
+            
+                          
+              
+              <li class="carousel__cell"><img src="./img/logo.png" width="250px"></li>
+              <li class="carousel__cell"><img src="./img/logo4.jpg" width="250px"></li>
+              <li class="carousel__cell"><img src="./img/logo5.jpg" width="250px"></li>
+              <li class="carousel__cell"><img src="./img/logo_lava.jpg" width="250px"></li>
+            
+          </ol>
       </div>
-
-    </div>
+      <div class="carousel__controls">
+          <button class="previous-button">&#x1F446;&#x1F3FB;</button>
+          <button class="next-button">&#x1F447;&#x1F3FB;</button>
+      </div>
+  </div>
 
   </section>
 
@@ -184,6 +158,9 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
 
+  <script type="text/javascript" src="./js/script.js"></script>
+
+  
 </body>
 
 </html>
