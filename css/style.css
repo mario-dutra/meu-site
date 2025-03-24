@@ -164,6 +164,7 @@ html {
   width: 100%;
   background-color: rgb(237, 249, 171);
   position: relative;
+  overflow:hidden;
 }
 
 
