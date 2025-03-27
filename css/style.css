@@ -461,6 +461,17 @@ hr {
 
   }
 
+.carousel__controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    left:50%;
+    border: 0px solid green;
+    top:160px;
 
+}
 
 }
