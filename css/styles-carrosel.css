@@ -45,6 +45,11 @@ a, a:visited, a:active {
     right: 405px;
     border: 0px solid green;
     top:160px;
+   
+}
+
+button{
+    color: rgb(207, 232, 70);
 }
 
 .previous-button, .next-button {
